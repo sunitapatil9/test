@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>FE Examination</title>
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+
+<!-- stylesheet -->
+<link rel="stylesheet" href="css/main.css" type="text/css">
+</head>
+<body>
+
+
+<!-- navigation bar -->
+<header>
+<div class="common__container height-100">
+
+<a href="javascript:void(0);" class="mobile-header-buttons cta-menu">
+<img src="assets/images/menu.svg" alt="logout"/>
+</a>
+
+<div class="site-branding__logo"> 
+<a class="site-branding__logo-space" href="#"> 
+<img alt="logo" src="assets/images/logo.svg"/> 
+<img alt="logo" src="assets/images/logo-1.svg"/> 
+</a>
+</div>
+
+<a class="mobile-header-buttons cta-chat" href="#">
+<img alt="menu" src="assets/images/logout.svg"/>
+</a>
+
+
+
+<nav id="navigation" class="navigation">
+<ul class="menu">
+<li class="menu-item"><a href=#>Dashboard</a></li>
+<li class="menu-item menu-item-active"><a href=#>Account</a></li>
+<li class="menu-item"><a href=#>Help</a></li>
+<li class="menu-item"><a href=#>Logout</a></li>
+</ul>
+</nav>
+
+</div>
+</header><!-- navigation bar -->
+  
+
+<main role="main">
+
+<!-- My Account section -->
+
+<section class="account">
+<div class="common__container">
+
+  <div class="account-container">
+
+    <div class="account-container-item">
+      <img class="img-fluid" alt="profilepic" src="assets/images/profile.svg"/>
+    </div>
+
+    <div class="account-container-item">
+      <h1>My Account</h1>
+
+      <form class="account-form" action="#">
+
+        <div class="account-form-item">
+          <input value="John Doe" type="text" required />
+          <label>Your Name</label>
+        </div>
+
+        <div class="account-form-container">
+
+          <div class="account-form-item">
+            <input  type="text" required />
+            <label>Mobile</label>
+          </div>
+
+          <div class="account-form-item">
+            <input value="john.doe@gmail.com"  type="text" required />
+            <label>Email</label>
+          </div>
+
+        </div>
+
+
+
+      </form>
+
+    </div>
+
+  </div>
+
+
+</div>
+</section>
+
+
+<div class="common__container">
+<hr class="divider">
+</div>
+
+
+<section class="configuration">
+<div class="common__container-space">
+
+<h2>Select Configuration</h2>
+
+<form action="#">
+<div>
+<div class="configuration-container">
+  <div class="configuration-container-item">
+    <label class="configuration-container-check">
+      <input checked="check" type="checkbox">
+      <span class="checkmark"></span>
+    </label>
+  </div>
+
+  <div class="configuration-container-item ">
+    <div class="configuration-container-subitem">
+      <p class="configuration-container-subhead margin-top-0 font-bold">Manual Configuration</p>
+      <p class="margin-bottom-0 margin-top-0">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.  </p>
+    </div>
+
+  </div>
+
+</div>
+
+<div class="configuration-container">
+  <div class="configuration-container-item">
+    &nbsp;
+  </div>
+
+  <div class="configuration-container-item ">
+    <div class="configuration-container-subitem">
+      <p class="configuration-container-subhead margin-top-0">Services Access</p>
+      <p class="margin-bottom-0 margin-top-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed massa leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu varius felis. Integer posuere urna ut mi porta, vel fringilla dolor convallis. Sed laoreet sodales sapien vel vestibulum. Nulla dictum eros ut efficitur porttitor. Mauris dignissim, lectus sit amet euismod pretium, ex purus condimentum erat, eu feugiat nisi ipsum ac eros. </p>
+    </div>
+
+  </div>
+
+</div>
+
+<div class="configuration-container">
+  <div class="configuration-container-item">
+    <label class="configuration-container-check">
+      <input type="checkbox">
+      <span class="checkmark"></span>
+    </label>
+  </div>
+
+  <div class="configuration-container-item ">
+    <div class="configuration-container-subitem">
+      <p class="configuration-container-subhead margin-top-0 font-bold">Semi-auto Configuration</p>
+      <p class="margin-bottom-0 margin-top-0">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+    </div>
+
+  </div>
+
+</div>
+
+<div class="configuration-container">
+  <div class="configuration-container-item">
+    <label class="configuration-container-check">
+      <input type="checkbox">
+      <span class="checkmark"></span>
+    </label>
+  </div>
+
+  <div class="configuration-container-item ">
+    <div class="configuration-container-subitem">
+      <p class="configuration-container-subhead margin-top-0 font-bold">Automatic Configuration</p>
+      <p class="margin-bottom-0 margin-top-0">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+    </div>
+
+  </div>
+
+</div>
+</div>
+
+<div class="configuration-button margin-top-2">
+  <div class="configuration-button-container">
+    &nbsp;
+  </div>
+
+  <div class="configuration-button-container">
+  <button id="configuration-button-submit" class="configuration-button-default configuration-button-bg"><img src="assets/images/double-arrow.png"/> Update Configuration </button>
+  <button class="configuration-button-default configuration-button-plain"><img src="assets/images/close.png"/> Cancel</button>
+  </div>
+
+</div>
+
+</div>
+
+
+
+</form>
+
+
+</div>
+</section>
+
+
+<!-- modal for button submit -->
+<div id="submit-form" class="submit-form-modal">
+
+  <!-- Modal content -->
+  <div class="submit-form-modal-content">
+ 
+    <div class="submit-form-modal-body">
+      <img src="assets/images/sucess.svg"/>
+      <p class="submit-form-modal-head margin-top-0">Great Job!</p>
+      <p class="submit-form-modal-description margin-bottom-0 margin-top-0">Your configurations have been updated successfully.</p>
+    </div>
+   
+  </div>
+
+</div>
+
+
+
+
+</main> <!-- main -->
+
+
+
+
+<script type="text/javascript" src="assets/js/index.js"></script>
+
+
+
+</body>
+</html>
